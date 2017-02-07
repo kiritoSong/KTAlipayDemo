@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD6FA4D1E486F3500EFD9EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD6FA4C1E486F3500EFD9EB /* main.m */; };
+		DAD6FA501E486F3500EFD9EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD6FA4F1E486F3500EFD9EB /* AppDelegate.m */; };
+		DAD6FA531E486F3500EFD9EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD6FA521E486F3500EFD9EB /* ViewController.m */; };
+		DAD6FA561E486F3500EFD9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD6FA541E486F3500EFD9EB /* Main.storyboard */; };
+		DAD6FA581E486F3500EFD9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD6FA571E486F3500EFD9EB /* Assets.xcassets */; };
+		DAD6FA5B1E486F3500EFD9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD6FA591E486F3500EFD9EB /* LaunchScreen.storyboard */; };
+		DAD6FA671E48794700EFD9EB /* RefreshHeaader.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD6FA661E48794700EFD9EB /* RefreshHeaader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAD6FA481E486F3500EFD9EB /* KTAlipayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTAlipayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD6FA4C1E486F3500EFD9EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAD6FA4E1E486F3500EFD9EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAD6FA4F1E486F3500EFD9EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAD6FA511E486F3500EFD9EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAD6FA521E486F3500EFD9EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAD6FA551E486F3500EFD9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD6FA571E486F3500EFD9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD6FA5A1E486F3500EFD9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD6FA5C1E486F3500EFD9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD6FA651E48794700EFD9EB /* RefreshHeaader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshHeaader.h; sourceTree = "<group>"; };
+		DAD6FA661E48794700EFD9EB /* RefreshHeaader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshHeaader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD6FA451E486F3500EFD9EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD6FA3F1E486F3500EFD9EB = {
+			isa = PBXGroup;
+			children = (
+				DAD6FA4A1E486F3500EFD9EB /* KTAlipayDemo */,
+				DAD6FA491E486F3500EFD9EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD6FA491E486F3500EFD9EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD6FA481E486F3500EFD9EB /* KTAlipayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD6FA4A1E486F3500EFD9EB /* KTAlipayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DAD6FA4E1E486F3500EFD9EB /* AppDelegate.h */,
+				DAD6FA4F1E486F3500EFD9EB /* AppDelegate.m */,
+				DAD6FA511E486F3500EFD9EB /* ViewController.h */,
+				DAD6FA521E486F3500EFD9EB /* ViewController.m */,
+				DAD6FA651E48794700EFD9EB /* RefreshHeaader.h */,
+				DAD6FA661E48794700EFD9EB /* RefreshHeaader.m */,
+				DAD6FA541E486F3500EFD9EB /* Main.storyboard */,
+				DAD6FA571E486F3500EFD9EB /* Assets.xcassets */,
+				DAD6FA591E486F3500EFD9EB /* LaunchScreen.storyboard */,
+				DAD6FA5C1E486F3500EFD9EB /* Info.plist */,
+				DAD6FA4B1E486F3500EFD9EB /* Supporting Files */,
+			);
+			path = KTAlipayDemo;
+			sourceTree = "<group>";
+		};
+		DAD6FA4B1E486F3500EFD9EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD6FA4C1E486F3500EFD9EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD6FA471E486F3500EFD9EB /* KTAlipayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD6FA5F1E486F3500EFD9EB /* Build configuration list for PBXNativeTarget "KTAlipayDemo" */;
+			buildPhases = (
+				DAD6FA441E486F3500EFD9EB /* Sources */,
+				DAD6FA451E486F3500EFD9EB /* Frameworks */,
+				DAD6FA461E486F3500EFD9EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTAlipayDemo;
+			productName = KTAlipayDemo;
+			productReference = DAD6FA481E486F3500EFD9EB /* KTAlipayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD6FA401E486F3500EFD9EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kirito_song;
+				TargetAttributes = {
+					DAD6FA471E486F3500EFD9EB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DAD6FA431E486F3500EFD9EB /* Build configuration list for PBXProject "KTAlipayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD6FA3F1E486F3500EFD9EB;
+			productRefGroup = DAD6FA491E486F3500EFD9EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD6FA471E486F3500EFD9EB /* KTAlipayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD6FA461E486F3500EFD9EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD6FA5B1E486F3500EFD9EB /* LaunchScreen.storyboard in Resources */,
+				DAD6FA581E486F3500EFD9EB /* Assets.xcassets in Resources */,
+				DAD6FA561E486F3500EFD9EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD6FA441E486F3500EFD9EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD6FA671E48794700EFD9EB /* RefreshHeaader.m in Sources */,
+				DAD6FA531E486F3500EFD9EB /* ViewController.m in Sources */,
+				DAD6FA501E486F3500EFD9EB /* AppDelegate.m in Sources */,
+				DAD6FA4D1E486F3500EFD9EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAD6FA541E486F3500EFD9EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD6FA551E486F3500EFD9EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD6FA591E486F3500EFD9EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD6FA5A1E486F3500EFD9EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD6FA5D1E486F3500EFD9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAD6FA5E1E486F3500EFD9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD6FA601E486F3500EFD9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KTAlipayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yibaisong.KTAlipayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAD6FA611E486F3500EFD9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KTAlipayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yibaisong.KTAlipayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD6FA431E486F3500EFD9EB /* Build configuration list for PBXProject "KTAlipayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD6FA5D1E486F3500EFD9EB /* Debug */,
+				DAD6FA5E1E486F3500EFD9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD6FA5F1E486F3500EFD9EB /* Build configuration list for PBXNativeTarget "KTAlipayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD6FA601E486F3500EFD9EB /* Debug */,
+				DAD6FA611E486F3500EFD9EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD6FA401E486F3500EFD9EB /* Project object */;
+}
